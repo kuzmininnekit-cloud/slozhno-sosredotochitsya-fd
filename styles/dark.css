@@ -23,3 +23,25 @@ html.theme-dark .header {
 html.theme-dark .header__lamp-sign {
   display: block;
 }
+
+@media (prefers-color-scheme: dark) {
+  :root.theme-auto {
+    --bg-color: #ff0070;
+    --text-color: #000028;
+    --content-text-color: #f1b2ce;
+    --accent-color: #ff0070;
+    --link-color: #f1b2ce;
+    --page-background-color: #000028;
+    --header-title-color: #db00ff;
+    --border-color: #ff0070;
+    --border-color-hover: #ff007066;
+  }
+
+  html.theme-auto .header {
+    background-image: url("../images/cover-image.png");
+  }
+
+  html.theme-auto .header__lamp-sign {
+    display: block;
+  }
+}

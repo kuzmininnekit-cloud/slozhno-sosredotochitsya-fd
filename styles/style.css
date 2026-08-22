@@ -2,6 +2,7 @@
 
 .page {
   background-color: var(--page-background-color, #000331);
+  background-attachment: fixed;
 }
 
 .header {
@@ -278,6 +279,10 @@ html.theme-light .header__theme-menu-button {
     margin-top: 40px;
   }
 
+  .header__title {
+    width: 577px;
+  }
+
   .decorated-zone::before {
     top: 20px;
     right: 20px;
@@ -352,7 +357,7 @@ html.theme-light .header__theme-menu-button {
     grid-column: 2;
   }
 
-  .content__section-concentration .content__title {
+  .content__section-concentration > .content__title {
     align-self: start;
     grid-column: 1;
   }
@@ -403,10 +408,16 @@ html.theme-light .header__theme-menu-button {
     .footer__title {
       font-size: 157px;
     }
+
+    .header__title {
+      width: 759px;
+    }
+
     .header__text {
       width: 491px;
       margin-top: 51px;
     }
+
     .header__theme-menu {
       margin: 0;
       align-self: start;
