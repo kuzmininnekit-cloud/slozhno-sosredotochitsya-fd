@@ -13,7 +13,6 @@
   background-position: center;
   display: grid;
   grid-template-rows: repeat(3, 1fr);
-  height: 100vh;
   height: 100dvh;
   min-height: 668px;
 }
@@ -250,7 +249,6 @@ html.theme-light .header__theme-menu-button {
   padding: 0 10px;
   margin-top: 40px;
   position: relative;
-  height: 100vh;
   height: 100dvh;
   min-height: 668px;
   display: grid;
@@ -303,10 +301,6 @@ html.theme-light .header__theme-menu-button {
     margin-right: 20px;
     justify-self: end;
     align-self: end;
-  }
-
-  .content {
-    padding: 0 10px;
   }
 
   .content__section {
