@@ -12,3 +12,5 @@
 ## Как переключаются темы
 
 Клик по кнопке добавляет классу `<html>` значение `theme-dark`, `theme-light` или `theme-auto` — выбор запоминается в `localStorage`, так что при следующем визите тема останется той же. В режиме «авто» сайт сам подстраивается под тёмную/светлую тему системы через `prefers-color-scheme`.
+
+Репозиторий: https://github.com/kuzmininnekit-cloud/slozhno-sosredotochitsya-fd
