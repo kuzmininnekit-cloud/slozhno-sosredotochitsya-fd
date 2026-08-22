@@ -114,7 +114,7 @@ html.theme-light .header__theme-menu-button {
 }
 
 .header__title {
-  justify-self: center;
+  justify-self: start;
   align-self: center;
   width: 355px;
   font-family: "IBM Plex mono";
