@@ -8,16 +8,15 @@
   --bg-color: #ff8dcb;
   --accent-color: #ff8dcb;
   --text-color: #353430;
+  --title-color: #353430;
   --content-text-color: #353430;
   --link-color: #353430;
   --page-background-color: #fff1f7;
   --header-title-color: #ffc2e6;
   --border-color: #353430;
   --border-color-hover: #35343066;
-}
-
-html.theme-light .header {
-  background-image: url("../images/cover-image-light.png");
+  --button-color: #353430;
+  --background-image: url("../images/cover-image-light.png");
 }
 
 html.theme-light .header__lamp-sign {
@@ -45,35 +44,18 @@ html.theme-light .content__link:focus-visible {
     --bg-color: #ff8dcb;
     --accent-color: #ff8dcb;
     --text-color: #353430;
+    --title-color: #353430;
     --content-text-color: #353430;
     --link-color: #353430;
     --page-background-color: #fff1f7;
     --header-title-color: #ffc2e6;
     --border-color: #353430;
     --border-color-hover: #35343066;
-  }
-
-  html.theme-auto .header {
-    background-image: url("../images/cover-image-light.png");
+    --button-color: #353430;
+    --background-image: url("../images/cover-image-light.png");
   }
 
   html.theme-auto .header__lamp-sign {
     display: none;
-  }
-
-  html.theme-auto .header__theme-menu-button {
-    color: var(--text-color, #353430);
-  }
-
-  html.theme-auto .content__title {
-    color: var(--text-color, #353430);
-  }
-
-  html.theme-auto .content__link:hover {
-    border-bottom: 1px solid var(--border-color, #353430);
-  }
-
-  html.theme-auto .content__link:focus-visible {
-    border: 1px solid var(--border-color, #353430);
   }
 }
