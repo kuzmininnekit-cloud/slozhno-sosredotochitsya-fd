@@ -177,10 +177,6 @@
   gap: 10px;
 }
 
-.title-decor_weight_regular {
-  font-weight: 400;
-}
-
 .content__text {
   font-family: var(--font-family);
   font-weight: 400;
@@ -323,7 +319,6 @@
 
   .content__section-concentration .content__title {
     min-width: 236px;
-    min-height: 70px;
   }
 
   .content__section-concentration {
@@ -335,7 +330,6 @@
 
   .content__section-concentration > .content__title {
     grid-column: 1;
-    min-height: 70px;
   }
 
   .content__section-concentration .content__card {
@@ -426,7 +420,6 @@
 
     .content__section-concentration > .content__title {
       grid-column: 1 / -1;
-      min-height: 47px;
     }
 
     .content__section-concentration > .content__card {

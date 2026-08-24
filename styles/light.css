@@ -23,22 +23,6 @@ html.theme-light .header__lamp-sign {
   display: none;
 }
 
-html.theme-light .header__theme-menu-button {
-  color: var(--text-color, #353430);
-}
-
-html.theme-light .content__title {
-  color: var(--text-color, #353430);
-}
-
-html.theme-light .content__link:hover {
-  border-bottom: 1px solid var(--border-color, #353430);
-}
-
-html.theme-light .content__link:focus-visible {
-  border: 1px solid var(--border-color, #353430);
-}
-
 @media (prefers-color-scheme: light) {
   :root.theme-auto {
     --bg-color: #ff8dcb;
