@@ -111,6 +111,7 @@
 
 .header__title {
   justify-self: start;
+  margin-left: 10px;
   align-self: center;
   width: 355px;
   font-family: var(--font-family);
@@ -223,6 +224,10 @@
   max-width: 100%;
 }
 
+.content__section-images {
+  gap: 10px;
+}
+
 .content__pictures img {
   width: 100%;
   height: 100%;
@@ -256,10 +261,15 @@
   }
 
   .header__text {
+    width: 364px;
     align-self: start;
     justify-self: end;
     margin-right: 20px;
     margin-top: 40px;
+  }
+
+  .header__text br {
+    display: none;
   }
 
   .header__title {
@@ -300,10 +310,6 @@
     align-items: start;
   }
 
-  .content__title {
-    width: 236px;
-  }
-
   .content__section_sidebar > .content__title {
     grid-column: 1;
   }
@@ -315,25 +321,19 @@
 
   .content__section-advice > .content__title {
     grid-row: 1 / span 6;
+    width: 236px;
   }
 
   .content__section-concentration .content__title {
-    min-width: 236px;
+    max-width: 150px;
+    align-self: flex-start;
+    text-align: left;
   }
 
   .content__section-concentration {
-    display: grid;
-    grid-template-columns: 236px 1fr;
+    display: flex;
+    flex-direction: column;
     gap: 20px;
-    align-items: start;
-  }
-
-  .content__section-concentration > .content__title {
-    grid-column: 1;
-  }
-
-  .content__section-concentration .content__card {
-    grid-column: 2;
   }
 
   .content__pictures {
@@ -392,6 +392,10 @@
       margin-top: 51px;
     }
 
+    .header__text br {
+      display: none;
+    }
+
     .header__theme-menu {
       margin: 0;
       align-self: start;
@@ -415,15 +419,23 @@
     }
 
     .content__section-concentration {
+      display: grid;
       grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+      align-items: start;
     }
 
     .content__section-concentration > .content__title {
       grid-column: 1 / -1;
+      min-width: 355px;
     }
 
-    .content__section-concentration > .content__card {
-      grid-column: auto;
+    .content__pictures {
+      grid-template-rows: 260px 315px 433px;
+    }
+
+    .content__section-images {
+      gap: 20px;
     }
   }
 }
