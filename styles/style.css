@@ -261,15 +261,11 @@
   }
 
   .header__text {
-    width: 364px;
+    width: 362px;
     align-self: start;
     justify-self: end;
     margin-right: 20px;
     margin-top: 40px;
-  }
-
-  .header__text br {
-    display: none;
   }
 
   .header__title {
@@ -390,10 +386,6 @@
     .header__text {
       width: 491px;
       margin-top: 51px;
-    }
-
-    .header__text br {
-      display: none;
     }
 
     .header__theme-menu {
